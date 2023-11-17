@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: Q4
+    description: Answer to Q4 of take home test.
+    columns: 
+      - name: date_local 
+        description: this column contain date.
+      - name: country_name
+        description: Name Of The Country.
+      - name: vendor_name
+        description: Vendor Name Of each Country.
+      - name: total_gmv
+        description: Total GMV Calculated in each country for top two vendor.

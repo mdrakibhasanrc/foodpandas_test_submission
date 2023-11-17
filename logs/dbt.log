@@ -1,0 +1,765 @@
+[0m11:58:32.876523 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257C130EED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257C1C33450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257C16BA750>]}
+
+
+============================== 11:58:32.923489 | 0cb027f2-8ed4-4937-8241-2f3c4bd66d3a ==============================
+[0m11:58:32.923489 [info ] [MainThread]: Running with dbt=1.5.1
+[0m11:58:32.923489 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rakib Hasan\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m11:58:32.923489 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path G:\Foodpanda_test\dbt-core\foodpanda_test\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:58:32.923489 [debug] [MainThread]: Command `dbt run` failed at 11:58:32.923489 after 0.22 seconds
+[0m11:58:32.923489 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257C1589510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257C1714D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257C1631C90>]}
+[0m11:58:32.923489 [debug] [MainThread]: Flushing usage events
+[0m11:59:36.429116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E6828FF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E67F58E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E682DEF90>]}
+
+
+============================== 11:59:36.491708 | ad1dd857-ee9e-42e2-901b-df054f7ef99c ==============================
+[0m11:59:36.491708 [info ] [MainThread]: Running with dbt=1.5.1
+[0m11:59:36.491708 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Rakib Hasan\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m11:59:36.507226 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path G:\Foodpanda_test\dbt-core\foodpanda_test\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:59:36.507226 [debug] [MainThread]: Command `dbt run` failed at 11:59:36.507226 after 0.30 seconds
+[0m11:59:36.507226 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E68358E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E68890710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E67F6C990>]}
+[0m11:59:36.507226 [debug] [MainThread]: Flushing usage events
+[0m12:00:01.127974 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6B49E2B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6B4DD3CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6B5367BD0>]}
+
+
+============================== 12:00:01.127974 | 284b26fc-9a2d-4735-b783-73f5e9ab45ca ==============================
+[0m12:00:01.127974 [info ] [MainThread]: Running with dbt=1.5.1
+[0m12:00:01.143596 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rakib Hasan\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m12:00:01.143596 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path G:\Foodpanda_test\dbt-core\foodpanda_test\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:00:01.143596 [debug] [MainThread]: Command `dbt run` failed at 12:00:01.143596 after 0.04 seconds
+[0m12:00:01.143596 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6B5370790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6B4A2CAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6B5367BD0>]}
+[0m12:00:01.143596 [debug] [MainThread]: Flushing usage events
+[0m12:01:43.945673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DB083E410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DB0B371D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DB081BC90>]}
+
+
+============================== 12:01:43.961296 | 6914cd4e-1601-44bc-ad1c-7d8750a97ca5 ==============================
+[0m12:01:43.961296 [info ] [MainThread]: Running with dbt=1.5.1
+[0m12:01:43.961296 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rakib Hasan\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'G:\\Foodpanda_test\\dbt-core\\foodpanda_test\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m12:01:50.938818 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBB9FDBD0>]}
+[0m12:01:50.985682 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBBC99AD0>]}
+[0m12:01:51.016925 [debug] [MainThread]: checksum: 51f6b581eba8f8101bc020bf9faf8f96af641e2da86d581f66e2bdf0ff384b1c, vars: {}, profile: , target: , version: 1.5.1
+[0m12:01:51.095032 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m12:01:51.095032 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBBDC0C90>]}
+[0m12:01:53.370759 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_q1.sql
+[0m12:01:53.402003 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_q2.sql
+[0m12:01:53.424140 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_q3.sql
+[0m12:01:53.431072 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_q4.sql
+[0m12:01:53.431072 [debug] [MainThread]: 1699: static parser successfully parsed tranasform\Q1.sql
+[0m12:01:53.449635 [debug] [MainThread]: 1699: static parser successfully parsed tranasform\Q2.sql
+[0m12:01:53.456619 [debug] [MainThread]: 1699: static parser successfully parsed tranasform\Q3.sql
+[0m12:01:53.469586 [debug] [MainThread]: 1699: static parser successfully parsed tranasform\Q4.sql
+[0m12:01:53.603587 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.foodpanda_test.template_for_submission.tranasform
+[0m12:01:53.622456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBBD58AD0>]}
+[0m12:01:53.695199 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBBECC8D0>]}
+[0m12:01:53.695199 [info ] [MainThread]: Found 8 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m12:01:53.695199 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBBCEF4D0>]}
+[0m12:01:53.710823 [info ] [MainThread]: 
+[0m12:01:53.720094 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m12:01:53.732720 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_foodpanda-bi-test-405316'
+[0m12:01:53.746963 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:01:57.245670 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_foodpanda-bi-test-405316_production'
+[0m12:01:57.245670 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:01:58.016307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBBCF9490>]}
+[0m12:01:58.018306 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:01:58.018843 [info ] [MainThread]: 
+[0m12:01:58.320684 [debug] [Thread-1 (]: Began running node model.foodpanda_test.stg_q1
+[0m12:01:58.320684 [info ] [Thread-1 (]: 1 of 8 START sql view model production.stg_q1 .................................. [RUN]
+[0m12:01:58.336305 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.foodpanda_test.stg_q1'
+[0m12:01:58.336305 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.stg_q1
+[0m12:01:58.336305 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.stg_q1"
+[0m12:01:58.336305 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q1 (compile): 12:01:58.336305 => 12:01:58.336305
+[0m12:01:58.351927 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.stg_q1
+[0m12:01:58.447660 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.stg_q1"
+[0m12:01:58.447660 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:01:58.447660 [debug] [Thread-1 (]: On model.foodpanda_test.stg_q1: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.stg_q1"} */
+
+
+  create or replace view `foodpanda-bi-test-405316`.`production`.`stg_q1`
+  OPTIONS()
+  as 
+
+SELECT 
+    country_name,
+    ROUND(sum(gmv_local),2) as total_gmv
+FROM `foodpanda-bi-test-405316.foodpanda.Orders`
+ GROUP BY
+     country_name
+ ORDER BY
+     total_gmv desc;
+
+
+[0m12:02:00.477071 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:77439014-3611-41a9-a8ac-a42c54d8ac89&page=queryresults
+[0m12:02:00.492717 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q1 (execute): 12:01:58.354088 => 12:02:00.492717
+[0m12:02:00.492717 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBBDEB490>]}
+[0m12:02:00.508302 [info ] [Thread-1 (]: 1 of 8 OK created sql view model production.stg_q1 ............................. [[32mCREATE VIEW (0 processed)[0m in 2.16s]
+[0m12:02:00.555274 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.stg_q1
+[0m12:02:00.555274 [debug] [Thread-1 (]: Began running node model.foodpanda_test.stg_q2
+[0m12:02:00.555274 [info ] [Thread-1 (]: 2 of 8 START sql view model production.stg_q2 .................................. [RUN]
+[0m12:02:00.568199 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.foodpanda_test.stg_q1, now model.foodpanda_test.stg_q2)
+[0m12:02:00.570193 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.stg_q2
+[0m12:02:00.580351 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.stg_q2"
+[0m12:02:00.583343 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q2 (compile): 12:02:00.572188 => 12:02:00.582346
+[0m12:02:00.584340 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.stg_q2
+[0m12:02:00.601057 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.stg_q2"
+[0m12:02:00.601057 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:02:00.601057 [debug] [Thread-1 (]: On model.foodpanda_test.stg_q2: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.stg_q2"} */
+
+
+  create or replace view `foodpanda-bi-test-405316`.`production`.`stg_q2`
+  OPTIONS()
+  as 
+
+
+SELECT 
+   v.vendor_name,
+   COUNT(DISTINCT o.customer_id) as customer_count,
+   SUM(o.gmv_local) as total_gmv
+FROM 
+   `foodpanda-bi-test-405316.foodpanda.Vendors` v
+INNER JOIN 
+    `foodpanda-bi-test-405316.foodpanda.Orders` o
+ON
+   v.id=o.vendor_id
+WHERE
+  v.country_name='Taiwan'
+GROUP BY
+     v.vendor_name
+ORDER BY
+    total_gmv desc;
+
+
+[0m12:02:02.281235 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:bd943af3-d443-4680-b590-c2436b51efd5&page=queryresults
+[0m12:02:02.281235 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q2 (execute): 12:02:00.585336 => 12:02:02.281235
+[0m12:02:02.281235 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBBC99E90>]}
+[0m12:02:02.281235 [info ] [Thread-1 (]: 2 of 8 OK created sql view model production.stg_q2 ............................. [[32mCREATE VIEW (0 processed)[0m in 1.73s]
+[0m12:02:02.296855 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.stg_q2
+[0m12:02:02.296855 [debug] [Thread-1 (]: Began running node model.foodpanda_test.stg_q3
+[0m12:02:02.296855 [info ] [Thread-1 (]: 3 of 8 START sql view model production.stg_q3 .................................. [RUN]
+[0m12:02:02.296855 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.foodpanda_test.stg_q2, now model.foodpanda_test.stg_q3)
+[0m12:02:02.296855 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.stg_q3
+[0m12:02:02.296855 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.stg_q3"
+[0m12:02:02.296855 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q3 (compile): 12:02:02.296855 => 12:02:02.296855
+[0m12:02:02.296855 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.stg_q3
+[0m12:02:02.314704 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.stg_q3"
+[0m12:02:02.316698 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:02:02.323716 [debug] [Thread-1 (]: On model.foodpanda_test.stg_q3: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.stg_q3"} */
+
+
+  create or replace view `foodpanda-bi-test-405316`.`production`.`stg_q3`
+  OPTIONS()
+  as WITH RankedVendors AS (
+    SELECT 
+        o.country_name,
+        v.vendor_name,
+        ROUND(SUM(o.gmv_local),2) as total_gmv,
+        DENSE_RANK() OVER(PARTITION BY o.country_name ORDER BY SUM(o.gmv_local) DESC) as rnk
+    FROM 
+        `foodpanda-bi-test-405316.foodpanda.Vendors` v
+    INNER JOIN 
+        `foodpanda-bi-test-405316.foodpanda.Orders` o
+    ON
+         v.id=o.vendor_id
+    WHERE
+        v.is_active = TRUE
+    GROUP BY
+        o.country_name,
+        v.vendor_name
+)
+SELECT 
+    country_name,
+    vendor_name,
+    total_gmv
+FROM 
+    RankedVendors
+WHERE 
+    rnk = 1
+ORDER BY 
+    country_name, 
+    total_gmv DESC;
+
+
+[0m12:02:04.125279 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:c86aabfe-8c3d-43e4-a510-6183717229db&page=queryresults
+[0m12:02:04.128271 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q3 (execute): 12:02:02.296855 => 12:02:04.128271
+[0m12:02:04.130264 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBBD86810>]}
+[0m12:02:04.131261 [info ] [Thread-1 (]: 3 of 8 OK created sql view model production.stg_q3 ............................. [[32mCREATE VIEW (0 processed)[0m in 1.83s]
+[0m12:02:04.133925 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.stg_q3
+[0m12:02:04.134921 [debug] [Thread-1 (]: Began running node model.foodpanda_test.stg_q4
+[0m12:02:04.135868 [info ] [Thread-1 (]: 4 of 8 START sql view model production.stg_q4 .................................. [RUN]
+[0m12:02:04.137872 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.foodpanda_test.stg_q3, now model.foodpanda_test.stg_q4)
+[0m12:02:04.138868 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.stg_q4
+[0m12:02:04.143854 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.stg_q4"
+[0m12:02:04.146847 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q4 (compile): 12:02:04.138868 => 12:02:04.145848
+[0m12:02:04.148250 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.stg_q4
+[0m12:02:04.152457 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.stg_q4"
+[0m12:02:04.154450 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:02:04.161433 [debug] [Thread-1 (]: On model.foodpanda_test.stg_q4: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.stg_q4"} */
+
+
+  create or replace view `foodpanda-bi-test-405316`.`production`.`stg_q4`
+  OPTIONS()
+  as WITH RankedVendors AS (
+    SELECT
+        o.date_local,
+        v.vendor_name,
+        o.country_name,
+        EXTRACT(YEAR FROM o.date_local) AS order_year,
+        ROUND(SUM(o.gmv_local),2) AS total_gmv,
+        ROW_NUMBER() OVER(PARTITION BY o.country_name, EXTRACT(YEAR FROM o.date_local) ORDER BY SUM(o.gmv_local) DESC) AS rnk
+    FROM
+        `foodpanda-bi-test-405316.foodpanda.Vendors` v
+    INNER JOIN
+        `foodpanda-bi-test-405316.foodpanda.Orders` o ON v.rdbms_id = o.rdbms_id
+    GROUP BY
+        v.vendor_name,
+        o.country_name,
+        order_year,
+        o.date_local
+)
+
+SELECT
+    date_local,
+    country_name,
+    vendor_name,
+    total_gmv
+FROM
+    RankedVendors
+WHERE
+    rnk <= 2
+ORDER BY
+    country_name,
+     order_year,
+     rnk,
+     date_local;
+
+
+[0m12:02:05.918170 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:8ac895d3-e568-46cd-95e8-ac2c4e778dcb&page=queryresults
+[0m12:02:05.918170 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q4 (execute): 12:02:04.148467 => 12:02:05.918170
+[0m12:02:05.918170 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBBC99E90>]}
+[0m12:02:05.918170 [info ] [Thread-1 (]: 4 of 8 OK created sql view model production.stg_q4 ............................. [[32mCREATE VIEW (0 processed)[0m in 1.78s]
+[0m12:02:05.918170 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.stg_q4
+[0m12:02:05.918170 [debug] [Thread-1 (]: Began running node model.foodpanda_test.Q1
+[0m12:02:05.918170 [info ] [Thread-1 (]: 5 of 8 START sql table model production.Q1 ..................................... [RUN]
+[0m12:02:05.918170 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.foodpanda_test.stg_q4, now model.foodpanda_test.Q1)
+[0m12:02:05.934923 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.Q1
+[0m12:02:05.940993 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.Q1"
+[0m12:02:05.940993 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q1 (compile): 12:02:05.934923 => 12:02:05.940993
+[0m12:02:05.940993 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.Q1
+[0m12:02:05.966506 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:02:06.766409 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.Q1"
+[0m12:02:06.766409 [debug] [Thread-1 (]: On model.foodpanda_test.Q1: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.Q1"} */
+
+  
+    
+
+    create or replace table `foodpanda-bi-test-405316`.`production`.`Q1`
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+  country_name,
+  total_gmv,
+FROM `foodpanda-bi-test-405316`.`production`.`stg_q1`
+    );
+  
+[0m12:02:10.203726 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:c495070b-7998-4161-b7d1-371f7ed7f31e&page=queryresults
+[0m12:02:10.203726 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q1 (execute): 12:02:05.940993 => 12:02:10.203726
+[0m12:02:10.203726 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBBEFCFD0>]}
+[0m12:02:10.203726 [info ] [Thread-1 (]: 5 of 8 OK created sql table model production.Q1 ................................ [[32mCREATE TABLE (3.0 rows, 1.8 KiB processed)[0m in 4.29s]
+[0m12:02:10.203726 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.Q1
+[0m12:02:10.216992 [debug] [Thread-1 (]: Began running node model.foodpanda_test.Q2
+[0m12:02:10.217990 [info ] [Thread-1 (]: 6 of 8 START sql table model production.Q2 ..................................... [RUN]
+[0m12:02:10.220547 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.foodpanda_test.Q1, now model.foodpanda_test.Q2)
+[0m12:02:10.221551 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.Q2
+[0m12:02:10.227949 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.Q2"
+[0m12:02:10.227949 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q2 (compile): 12:02:10.222576 => 12:02:10.227949
+[0m12:02:10.234606 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.Q2
+[0m12:02:10.237076 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:02:11.032538 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.Q2"
+[0m12:02:11.032538 [debug] [Thread-1 (]: On model.foodpanda_test.Q2: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.Q2"} */
+
+  
+    
+
+    create or replace table `foodpanda-bi-test-405316`.`production`.`Q2`
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+   vendor_name,
+   customer_count,
+   total_gmv
+FROM `foodpanda-bi-test-405316`.`production`.`stg_q2`
+    );
+  
+[0m12:02:15.566009 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:6e68fc50-0f70-467e-a0cd-19a1b85e1e2b&page=queryresults
+[0m12:02:15.566009 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q2 (execute): 12:02:10.235603 => 12:02:15.566009
+[0m12:02:15.566009 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBBF34210>]}
+[0m12:02:15.581629 [info ] [Thread-1 (]: 6 of 8 OK created sql table model production.Q2 ................................ [[32mCREATE TABLE (2.0 rows, 2.6 KiB processed)[0m in 5.35s]
+[0m12:02:15.581629 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.Q2
+[0m12:02:15.581629 [debug] [Thread-1 (]: Began running node model.foodpanda_test.Q3
+[0m12:02:15.581629 [info ] [Thread-1 (]: 7 of 8 START sql table model production.Q3 ..................................... [RUN]
+[0m12:02:15.581629 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.foodpanda_test.Q2, now model.foodpanda_test.Q3)
+[0m12:02:15.591658 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.Q3
+[0m12:02:15.609260 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.Q3"
+[0m12:02:15.621896 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q3 (compile): 12:02:15.592654 => 12:02:15.620901
+[0m12:02:15.622894 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.Q3
+[0m12:02:15.632334 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:02:16.413298 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.Q3"
+[0m12:02:16.428906 [debug] [Thread-1 (]: On model.foodpanda_test.Q3: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.Q3"} */
+
+  
+    
+
+    create or replace table `foodpanda-bi-test-405316`.`production`.`Q3`
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    country_name,
+    vendor_name,
+    total_gmv
+FROM `foodpanda-bi-test-405316`.`production`.`stg_q3`
+    );
+  
+[0m12:02:20.537823 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:7bb19570-0886-404b-9258-90251de475dc&page=queryresults
+[0m12:02:20.537823 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q3 (execute): 12:02:15.624889 => 12:02:20.537823
+[0m12:02:20.537823 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBBD5B750>]}
+[0m12:02:20.537823 [info ] [Thread-1 (]: 7 of 8 OK created sql table model production.Q3 ................................ [[32mCREATE TABLE (3.0 rows, 2.7 KiB processed)[0m in 4.96s]
+[0m12:02:20.537823 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.Q3
+[0m12:02:20.537823 [debug] [Thread-1 (]: Began running node model.foodpanda_test.Q4
+[0m12:02:20.537823 [info ] [Thread-1 (]: 8 of 8 START sql table model production.Q4 ..................................... [RUN]
+[0m12:02:20.553375 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.foodpanda_test.Q3, now model.foodpanda_test.Q4)
+[0m12:02:20.553375 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.Q4
+[0m12:02:20.553375 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.Q4"
+[0m12:02:20.553375 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q4 (compile): 12:02:20.553375 => 12:02:20.553375
+[0m12:02:20.553375 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.Q4
+[0m12:02:20.553375 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:02:21.337627 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.Q4"
+[0m12:02:21.339620 [debug] [Thread-1 (]: On model.foodpanda_test.Q4: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.Q4"} */
+
+  
+    
+
+    create or replace table `foodpanda-bi-test-405316`.`production`.`Q4`
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+   date_local,
+   country_name
+   vendor_name,
+   total_gmv
+FROM `foodpanda-bi-test-405316`.`production`.`stg_q4`
+    );
+  
+[0m12:02:25.470771 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:a2373745-58ba-46cc-8f1b-3c7f5c5f8b28&page=queryresults
+[0m12:02:25.470771 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q4 (execute): 12:02:20.553375 => 12:02:25.470771
+[0m12:02:25.470771 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6914cd4e-1601-44bc-ad1c-7d8750a97ca5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DBBA5B2D0>]}
+[0m12:02:25.486324 [info ] [Thread-1 (]: 8 of 8 OK created sql table model production.Q4 ................................ [[32mCREATE TABLE (9.0 rows, 3.5 KiB processed)[0m in 4.92s]
+[0m12:02:25.486324 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.Q4
+[0m12:02:25.486324 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:02:25.486324 [debug] [MainThread]: Connection 'list_foodpanda-bi-test-405316' was properly closed.
+[0m12:02:25.486324 [debug] [MainThread]: Connection 'list_foodpanda-bi-test-405316_production' was properly closed.
+[0m12:02:25.486324 [debug] [MainThread]: Connection 'model.foodpanda_test.Q4' was properly closed.
+[0m12:02:25.501945 [info ] [MainThread]: 
+[0m12:02:25.503189 [info ] [MainThread]: Finished running 4 view models, 4 table models in 0 hours 0 minutes and 31.79 seconds (31.79s).
+[0m12:02:25.509205 [debug] [MainThread]: Command end result
+[0m12:02:25.524447 [info ] [MainThread]: 
+[0m12:02:25.524447 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:02:25.540782 [info ] [MainThread]: 
+[0m12:02:25.540782 [info ] [MainThread]: Done. PASS=8 WARN=0 ERROR=0 SKIP=0 TOTAL=8
+[0m12:02:25.540782 [debug] [MainThread]: Command `dbt run` succeeded at 12:02:25.540782 after 41.71 seconds
+[0m12:02:25.540782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DB07D3F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DAC9A6F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019DB0B37D90>]}
+[0m12:02:25.540782 [debug] [MainThread]: Flushing usage events
+[0m12:19:59.827470 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916490EC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019164053F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191643E6350>]}
+
+
+============================== 12:19:59.858815 | 502b8d39-5717-47f3-a99d-96cbea2d12a4 ==============================
+[0m12:19:59.858815 [info ] [MainThread]: Running with dbt=1.5.1
+[0m12:19:59.858815 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rakib Hasan\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'G:\\Foodpanda_test\\dbt-core\\foodpanda_test\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m12:20:25.408286 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F2ADBD0>]}
+[0m12:20:25.423950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F1E2D90>]}
+[0m12:20:25.439567 [debug] [MainThread]: checksum: 51f6b581eba8f8101bc020bf9faf8f96af641e2da86d581f66e2bdf0ff384b1c, vars: {}, profile: , target: , version: 1.5.1
+[0m12:20:25.502015 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m12:20:25.517635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F4EE710>]}
+[0m12:20:27.180876 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_q1.sql
+[0m12:20:27.196390 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_q2.sql
+[0m12:20:27.212012 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_q3.sql
+[0m12:20:27.212012 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_q4.sql
+[0m12:20:27.227632 [debug] [MainThread]: 1699: static parser successfully parsed tranasform\Q1.sql
+[0m12:20:27.227632 [debug] [MainThread]: 1699: static parser successfully parsed tranasform\Q2.sql
+[0m12:20:27.243256 [debug] [MainThread]: 1699: static parser successfully parsed tranasform\Q3.sql
+[0m12:20:27.243256 [debug] [MainThread]: 1699: static parser successfully parsed tranasform\Q4.sql
+[0m12:20:27.446334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F6F6010>]}
+[0m12:20:27.477625 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F726910>]}
+[0m12:20:27.477625 [info ] [MainThread]: Found 8 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m12:20:27.493199 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F5CA650>]}
+[0m12:20:27.493199 [info ] [MainThread]: 
+[0m12:20:27.493199 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m12:20:27.671528 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_foodpanda-bi-test-405316'
+[0m12:20:27.674519 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:20:30.803818 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_foodpanda-bi-test-405316_production'
+[0m12:20:30.803818 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:20:31.559025 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F1E2710>]}
+[0m12:20:31.559025 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:20:31.559025 [info ] [MainThread]: 
+[0m12:20:31.746965 [debug] [Thread-1 (]: Began running node model.foodpanda_test.stg_q1
+[0m12:20:31.746965 [info ] [Thread-1 (]: 1 of 8 START sql view model production.stg_q1 .................................. [RUN]
+[0m12:20:31.746965 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.foodpanda_test.stg_q1'
+[0m12:20:31.746965 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.stg_q1
+[0m12:20:31.774810 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.stg_q1"
+[0m12:20:31.777671 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q1 (compile): 12:20:31.762572 => 12:20:31.777671
+[0m12:20:31.777671 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.stg_q1
+[0m12:20:31.836068 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.stg_q1"
+[0m12:20:31.836068 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:20:31.836068 [debug] [Thread-1 (]: On model.foodpanda_test.stg_q1: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.stg_q1"} */
+
+
+  create or replace view `foodpanda-bi-test-405316`.`production`.`stg_q1`
+  OPTIONS()
+  as 
+
+SELECT 
+    country_name,
+    ROUND(sum(gmv_local),2) as total_gmv
+FROM `foodpanda-bi-test-405316.foodpanda.Orders`
+ GROUP BY
+     country_name
+ ORDER BY
+     total_gmv desc;
+
+
+[0m12:20:33.754377 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:f46676af-7a8e-446a-9419-6e3de5a93bfd&page=queryresults
+[0m12:20:33.769963 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q1 (execute): 12:20:31.777671 => 12:20:33.769963
+[0m12:20:33.785547 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F682A50>]}
+[0m12:20:33.785547 [info ] [Thread-1 (]: 1 of 8 OK created sql view model production.stg_q1 ............................. [[32mCREATE VIEW (0 processed)[0m in 2.04s]
+[0m12:20:33.785547 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.stg_q1
+[0m12:20:33.785547 [debug] [Thread-1 (]: Began running node model.foodpanda_test.stg_q2
+[0m12:20:33.785547 [info ] [Thread-1 (]: 2 of 8 START sql view model production.stg_q2 .................................. [RUN]
+[0m12:20:33.785547 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.foodpanda_test.stg_q1, now model.foodpanda_test.stg_q2)
+[0m12:20:33.785547 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.stg_q2
+[0m12:20:33.785547 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.stg_q2"
+[0m12:20:33.785547 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q2 (compile): 12:20:33.785547 => 12:20:33.785547
+[0m12:20:33.785547 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.stg_q2
+[0m12:20:33.854216 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.stg_q2"
+[0m12:20:33.854216 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:20:33.854216 [debug] [Thread-1 (]: On model.foodpanda_test.stg_q2: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.stg_q2"} */
+
+
+  create or replace view `foodpanda-bi-test-405316`.`production`.`stg_q2`
+  OPTIONS()
+  as 
+
+
+SELECT 
+   v.vendor_name,
+   COUNT(DISTINCT o.customer_id) as customer_count,
+   SUM(o.gmv_local) as total_gmv
+FROM 
+   `foodpanda-bi-test-405316.foodpanda.Vendors` v
+INNER JOIN 
+    `foodpanda-bi-test-405316.foodpanda.Orders` o
+ON
+   v.id=o.vendor_id
+WHERE
+  v.country_name='Taiwan'
+GROUP BY
+     v.vendor_name
+ORDER BY
+    total_gmv desc;
+
+
+[0m12:20:35.698886 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:38d880df-fa8a-4475-84a8-5e999c63581a&page=queryresults
+[0m12:20:35.714554 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q2 (execute): 12:20:33.785547 => 12:20:35.698886
+[0m12:20:35.714554 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F5A0710>]}
+[0m12:20:35.714554 [info ] [Thread-1 (]: 2 of 8 OK created sql view model production.stg_q2 ............................. [[32mCREATE VIEW (0 processed)[0m in 1.93s]
+[0m12:20:35.714554 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.stg_q2
+[0m12:20:35.714554 [debug] [Thread-1 (]: Began running node model.foodpanda_test.stg_q3
+[0m12:20:35.714554 [info ] [Thread-1 (]: 3 of 8 START sql view model production.stg_q3 .................................. [RUN]
+[0m12:20:35.714554 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.foodpanda_test.stg_q2, now model.foodpanda_test.stg_q3)
+[0m12:20:35.730112 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.stg_q3
+[0m12:20:35.738949 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.stg_q3"
+[0m12:20:35.738949 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q3 (compile): 12:20:35.731110 => 12:20:35.738949
+[0m12:20:35.738949 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.stg_q3
+[0m12:20:35.738949 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.stg_q3"
+[0m12:20:35.738949 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:20:35.754582 [debug] [Thread-1 (]: On model.foodpanda_test.stg_q3: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.stg_q3"} */
+
+
+  create or replace view `foodpanda-bi-test-405316`.`production`.`stg_q3`
+  OPTIONS()
+  as WITH RankedVendors AS (
+    SELECT 
+        o.country_name,
+        v.vendor_name,
+        ROUND(SUM(o.gmv_local),2) as total_gmv,
+        DENSE_RANK() OVER(PARTITION BY o.country_name ORDER BY SUM(o.gmv_local) DESC) as rnk
+    FROM 
+        `foodpanda-bi-test-405316.foodpanda.Vendors` v
+    INNER JOIN 
+        `foodpanda-bi-test-405316.foodpanda.Orders` o
+    ON
+         v.id=o.vendor_id
+    WHERE
+        v.is_active = TRUE
+    GROUP BY
+        o.country_name,
+        v.vendor_name
+)
+SELECT 
+    country_name,
+    vendor_name,
+    total_gmv
+FROM 
+    RankedVendors
+WHERE 
+    rnk = 1
+ORDER BY 
+    country_name, 
+    total_gmv DESC;
+
+
+[0m12:20:37.533532 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:979df2b0-d872-4bf3-bbd5-677698519ed6&page=queryresults
+[0m12:20:37.533532 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q3 (execute): 12:20:35.738949 => 12:20:37.533532
+[0m12:20:37.533532 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F53DC10>]}
+[0m12:20:37.533532 [info ] [Thread-1 (]: 3 of 8 OK created sql view model production.stg_q3 ............................. [[32mCREATE VIEW (0 processed)[0m in 1.82s]
+[0m12:20:37.549120 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.stg_q3
+[0m12:20:37.549120 [debug] [Thread-1 (]: Began running node model.foodpanda_test.stg_q4
+[0m12:20:37.549120 [info ] [Thread-1 (]: 4 of 8 START sql view model production.stg_q4 .................................. [RUN]
+[0m12:20:37.549120 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.foodpanda_test.stg_q3, now model.foodpanda_test.stg_q4)
+[0m12:20:37.549120 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.stg_q4
+[0m12:20:37.549120 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.stg_q4"
+[0m12:20:37.549120 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q4 (compile): 12:20:37.549120 => 12:20:37.549120
+[0m12:20:37.549120 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.stg_q4
+[0m12:20:37.569010 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.stg_q4"
+[0m12:20:37.571780 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:20:37.571780 [debug] [Thread-1 (]: On model.foodpanda_test.stg_q4: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.stg_q4"} */
+
+
+  create or replace view `foodpanda-bi-test-405316`.`production`.`stg_q4`
+  OPTIONS()
+  as WITH RankedVendors AS (
+    SELECT
+        o.date_local,
+        v.vendor_name,
+        o.country_name,
+        EXTRACT(YEAR FROM o.date_local) AS order_year,
+        ROUND(SUM(o.gmv_local),2) AS total_gmv,
+        ROW_NUMBER() OVER(PARTITION BY o.country_name, EXTRACT(YEAR FROM o.date_local) ORDER BY SUM(o.gmv_local) DESC) AS rnk
+    FROM
+        `foodpanda-bi-test-405316.foodpanda.Vendors` v
+    INNER JOIN
+        `foodpanda-bi-test-405316.foodpanda.Orders` o ON v.rdbms_id = o.rdbms_id
+    GROUP BY
+        v.vendor_name,
+        o.country_name,
+        order_year,
+        o.date_local
+)
+
+SELECT
+    date_local,
+    country_name,
+    vendor_name,
+    total_gmv
+FROM
+    RankedVendors
+WHERE
+    rnk <= 2
+ORDER BY
+    country_name,
+     order_year,
+     rnk,
+     date_local;
+
+
+[0m12:20:39.385140 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:0dd6270c-bd2c-45d5-a41a-7797f9757f05&page=queryresults
+[0m12:20:39.385140 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.stg_q4 (execute): 12:20:37.549120 => 12:20:39.385140
+[0m12:20:39.385140 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F6633D0>]}
+[0m12:20:39.385140 [info ] [Thread-1 (]: 4 of 8 OK created sql view model production.stg_q4 ............................. [[32mCREATE VIEW (0 processed)[0m in 1.84s]
+[0m12:20:39.385140 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.stg_q4
+[0m12:20:39.400689 [debug] [Thread-1 (]: Began running node model.foodpanda_test.Q1
+[0m12:20:39.400689 [info ] [Thread-1 (]: 5 of 8 START sql table model production.Q1 ..................................... [RUN]
+[0m12:20:39.400689 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.foodpanda_test.stg_q4, now model.foodpanda_test.Q1)
+[0m12:20:39.400689 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.Q1
+[0m12:20:39.400689 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.Q1"
+[0m12:20:39.400689 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q1 (compile): 12:20:39.400689 => 12:20:39.400689
+[0m12:20:39.400689 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.Q1
+[0m12:20:39.423138 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:20:40.292937 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.Q1"
+[0m12:20:40.292937 [debug] [Thread-1 (]: On model.foodpanda_test.Q1: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.Q1"} */
+
+  
+    
+
+    create or replace table `foodpanda-bi-test-405316`.`production`.`Q1`
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+  country_name,
+  total_gmv,
+FROM `foodpanda-bi-test-405316`.`production`.`stg_q1`
+    );
+  
+[0m12:20:43.698996 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:e8dfad8d-f754-48f8-b69f-b5b4056fe718&page=queryresults
+[0m12:20:43.714564 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q1 (execute): 12:20:39.400689 => 12:20:43.698996
+[0m12:20:43.714564 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F760410>]}
+[0m12:20:43.714564 [info ] [Thread-1 (]: 5 of 8 OK created sql table model production.Q1 ................................ [[32mCREATE TABLE (3.0 rows, 1.8 KiB processed)[0m in 4.31s]
+[0m12:20:43.714564 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.Q1
+[0m12:20:43.714564 [debug] [Thread-1 (]: Began running node model.foodpanda_test.Q2
+[0m12:20:43.714564 [info ] [Thread-1 (]: 6 of 8 START sql table model production.Q2 ..................................... [RUN]
+[0m12:20:43.733230 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.foodpanda_test.Q1, now model.foodpanda_test.Q2)
+[0m12:20:43.734227 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.Q2
+[0m12:20:43.744093 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.Q2"
+[0m12:20:43.744093 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q2 (compile): 12:20:43.735224 => 12:20:43.744093
+[0m12:20:43.744093 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.Q2
+[0m12:20:43.744093 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:20:44.543884 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.Q2"
+[0m12:20:44.559467 [debug] [Thread-1 (]: On model.foodpanda_test.Q2: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.Q2"} */
+
+  
+    
+
+    create or replace table `foodpanda-bi-test-405316`.`production`.`Q2`
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+   vendor_name,
+   customer_count,
+   total_gmv
+FROM `foodpanda-bi-test-405316`.`production`.`stg_q2`
+    );
+  
+[0m12:20:48.043562 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:52ff4451-8fde-427e-b27a-f7a6577e3810&page=queryresults
+[0m12:20:48.043562 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q2 (execute): 12:20:43.744093 => 12:20:48.043562
+[0m12:20:48.059111 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F739150>]}
+[0m12:20:48.059111 [info ] [Thread-1 (]: 6 of 8 OK created sql table model production.Q2 ................................ [[32mCREATE TABLE (2.0 rows, 2.6 KiB processed)[0m in 4.33s]
+[0m12:20:48.059111 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.Q2
+[0m12:20:48.059111 [debug] [Thread-1 (]: Began running node model.foodpanda_test.Q3
+[0m12:20:48.059111 [info ] [Thread-1 (]: 7 of 8 START sql table model production.Q3 ..................................... [RUN]
+[0m12:20:48.059111 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.foodpanda_test.Q2, now model.foodpanda_test.Q3)
+[0m12:20:48.059111 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.Q3
+[0m12:20:48.082288 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.Q3"
+[0m12:20:48.084478 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q3 (compile): 12:20:48.059111 => 12:20:48.084478
+[0m12:20:48.084478 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.Q3
+[0m12:20:48.092728 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:20:48.859901 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.Q3"
+[0m12:20:48.859901 [debug] [Thread-1 (]: On model.foodpanda_test.Q3: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.Q3"} */
+
+  
+    
+
+    create or replace table `foodpanda-bi-test-405316`.`production`.`Q3`
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    country_name,
+    vendor_name,
+    total_gmv
+FROM `foodpanda-bi-test-405316`.`production`.`stg_q3`
+    );
+  
+[0m12:20:53.267269 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:d776bcc0-3ec4-47c6-a5c1-d28ca4c3a5d1&page=queryresults
+[0m12:20:53.282857 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q3 (execute): 12:20:48.084478 => 12:20:53.282857
+[0m12:20:53.282857 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F801210>]}
+[0m12:20:53.282857 [info ] [Thread-1 (]: 7 of 8 OK created sql table model production.Q3 ................................ [[32mCREATE TABLE (3.0 rows, 2.7 KiB processed)[0m in 5.22s]
+[0m12:20:53.282857 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.Q3
+[0m12:20:53.282857 [debug] [Thread-1 (]: Began running node model.foodpanda_test.Q4
+[0m12:20:53.282857 [info ] [Thread-1 (]: 8 of 8 START sql table model production.Q4 ..................................... [RUN]
+[0m12:20:53.282857 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.foodpanda_test.Q3, now model.foodpanda_test.Q4)
+[0m12:20:53.282857 [debug] [Thread-1 (]: Began compiling node model.foodpanda_test.Q4
+[0m12:20:53.282857 [debug] [Thread-1 (]: Writing injected SQL for node "model.foodpanda_test.Q4"
+[0m12:20:53.298441 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q4 (compile): 12:20:53.282857 => 12:20:53.298441
+[0m12:20:53.300126 [debug] [Thread-1 (]: Began executing node model.foodpanda_test.Q4
+[0m12:20:53.305111 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:20:54.143844 [debug] [Thread-1 (]: Writing runtime sql for node "model.foodpanda_test.Q4"
+[0m12:20:54.143844 [debug] [Thread-1 (]: On model.foodpanda_test.Q4: /* {"app": "dbt", "dbt_version": "1.5.1", "profile_name": "foodpanda_test", "target_name": "dev", "node_id": "model.foodpanda_test.Q4"} */
+
+  
+    
+
+    create or replace table `foodpanda-bi-test-405316`.`production`.`Q4`
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+   date_local,
+   country_name
+   vendor_name,
+   total_gmv
+FROM `foodpanda-bi-test-405316`.`production`.`stg_q4`
+    );
+  
+[0m12:20:57.891247 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=foodpanda-bi-test-405316&j=bq:US:2e6dc49b-c376-4ae8-ae20-a0fe90a1445c&page=queryresults
+[0m12:20:57.894201 [debug] [Thread-1 (]: Timing info for model.foodpanda_test.Q4 (execute): 12:20:53.301125 => 12:20:57.894201
+[0m12:20:57.895422 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '502b8d39-5717-47f3-a99d-96cbea2d12a4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001916F800210>]}
+[0m12:20:57.895422 [info ] [Thread-1 (]: 8 of 8 OK created sql table model production.Q4 ................................ [[32mCREATE TABLE (9.0 rows, 3.5 KiB processed)[0m in 4.61s]
+[0m12:20:57.895422 [debug] [Thread-1 (]: Finished running node model.foodpanda_test.Q4
+[0m12:20:57.895422 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:20:57.895422 [debug] [MainThread]: Connection 'list_foodpanda-bi-test-405316' was properly closed.
+[0m12:20:57.895422 [debug] [MainThread]: Connection 'list_foodpanda-bi-test-405316_production' was properly closed.
+[0m12:20:57.895422 [debug] [MainThread]: Connection 'model.foodpanda_test.Q4' was properly closed.
+[0m12:20:57.895422 [info ] [MainThread]: 
+[0m12:20:57.895422 [info ] [MainThread]: Finished running 4 view models, 4 table models in 0 hours 0 minutes and 30.40 seconds (30.40s).
+[0m12:20:57.895422 [debug] [MainThread]: Command end result
+[0m12:20:57.916688 [info ] [MainThread]: 
+[0m12:20:57.916688 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:20:57.916688 [info ] [MainThread]: 
+[0m12:20:57.928359 [info ] [MainThread]: Done. PASS=8 WARN=0 ERROR=0 SKIP=0 TOTAL=8
+[0m12:20:57.931355 [debug] [MainThread]: Command `dbt run` succeeded at 12:20:57.930353 after 58.14 seconds
+[0m12:20:57.932350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019164920950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019163283FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001915DEA3810>]}
+[0m12:20:57.933345 [debug] [MainThread]: Flushing usage events

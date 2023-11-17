@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: foodpanda
+    database: foodpanda-bi-test-405316
+    schema: foodpanda_test
+    tables:
+      - name: orders
+        description: this table is contain for order data
+      - name: Vendors
+        description: this table is contain for vendor data
+

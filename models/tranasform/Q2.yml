@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: Q2
+    description: Answer to Q2 of take home test.
+    columns: 
+      - name: vendor_name
+        description: Vendor Name Of Taiwan Country.
+      - name: customer_count
+        description: Total Customer Count in Taiwan Country.
+      - name: total_gmv
+        description: GMV Calculated for each vendor in Taiwan Country.

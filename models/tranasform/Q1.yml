@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: Q1
+    description: Answer to Q1 of take home test.
+    columns: 
+      - name: country_name
+        description: Name Of The Country.
+      - name: total_gmv
+        description: GMV Calculated for each country.
+        
